@@ -1,0 +1,1451 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+header {
+    background-color: rgba(4, 11, 34, 0.963);
+    padding: 20px 0px;
+}
+.main-header-content {
+text-align: right;
+
+}
+.main-header-content img {
+   width: 70%;
+   height: 70%;
+   border-radius: 50%;
+   border: 8px solid red;
+
+}
+.main-content {
+    padding: 45px 20px;
+}
+.main-content h1{
+font-size: 65px;
+color: white;
+}
+.main-content p{
+    font-size: 20px;
+    color: white;
+}
+.color-sec {
+    background-color: rgb(205, 0, 0);
+    height: 23px;
+}
+
+.main-profile .left-part-side {
+    padding: 50px 0px;
+    background-color: rgb(235 235 235);
+}
+
+.profile-content {
+    background-color: rgba(4, 11, 34, 0.963);
+    color: white;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.profile-content  svg.svg-inline--fa.fa-user {
+    overflow: visible;
+    box-sizing: content-box;
+    font-size: 40px;
+    padding: 0px 20px 0px 15px;
+}
+.profile-content h1 {
+    margin: 0px !important;
+    padding-left: 7px;
+}
+.profile-data P{
+    font-size: 20px;
+    line-height: 30px;
+}
+.profile-data {
+    padding: 25px 49px 29px 37px;
+}
+
+.contact-content {
+    background-color: rgba(4, 11, 34, 0.963);
+    color: white;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.contact-content  svg.svg-inline--fa.fa-phone {
+    overflow: visible;
+    box-sizing: content-box;
+    font-size: 40px;
+    padding: 0px 20px 0px 15px;
+}
+.contact-content h1 {
+    margin: 0px !important;
+    padding-left: 7px;
+}
+.contact-data {
+    padding: 25px 75px 29px 35px;
+}
+.contact-data .inner {
+    margin: 10px 0px;
+}
+.contact-data .inner span{
+font-size: 25px
+}
+.contact-data .inner .spec {
+    font-weight: bold;
+}
+.skill-content {
+    background-color: rgba(4, 11, 34, 0.963);
+    color: white;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.skill-content  svg.svg-inline--fa.fa-clock {
+    overflow: visible;
+    box-sizing: content-box;
+    font-size: 40px;
+    padding: 0px 20px 0px 15px;
+}
+.skill-content h1 {
+    margin: 0px !important;
+    padding-left: 7px;
+}
+.skill-data {
+    padding: 25px 75px 29px 35px;
+}
+
+.skill-data .inner .one-smart1{
+    background-color: rgb(138, 17, 6);
+    height: 18px;
+    margin: 12px 0px;
+    border-radius: 50px;
+}
+.skill-data .inner .one-smart1 .two-smart1 {
+    background-color: red;
+    height: 18px;
+    width: 286px;
+    border-radius: 50px;
+}
+.skill-data .inner .one-smart2{
+    background-color: rgb(138, 17, 6);
+    height: 18px;
+    margin: 12px 0px;
+    border-radius: 50px;
+}
+.skill-data .inner .one-smart2 .two-smart2 {
+    background-color: red;
+    height: 18px;
+    width: 270px;
+    border-radius: 50px;
+}
+.skill-data .inner .one-smart3{
+    background-color: rgb(138, 17, 6);
+    height: 18px;
+    margin: 12px 0px;
+    border-radius: 50px;
+}
+.skill-data .inner .one-smart3 .two-smart3 {
+    background-color: red;
+    height: 18px;
+    width: 150px;
+    border-radius: 50px;
+}
+.skill-data .inner .one-smart4{
+    background-color: rgb(138, 17, 6);
+    height: 18px;
+    margin: 12px 0px;
+    border-radius: 50px;
+}
+.skill-data .inner .one-smart4 .two-smart4 {
+    background-color: red;
+    height: 18px;
+    width: 245px;
+    border-radius: 50px;
+}
+
+.skill-data .inner .one-smart5{
+    background-color: rgb(138, 17, 6);
+    height: 18px;
+    margin: 12px 0px;
+    border-radius: 50px;
+}
+.skill-data .inner .one-smart5 .two-smart5 {
+    background-color: red;
+    height: 18px;
+    width: 120px;
+    border-radius: 50px;
+}
+.skill-data .inner .one-smart6{
+    background-color: rgb(138, 17, 6);
+    height: 18px;
+    margin: 12px 0px;
+    border-radius: 50px;
+}
+.skill-data .inner .one-smart6 .two-smart6 {
+    background-color: red;
+    height: 18px;
+    width: 240px;
+    border-radius: 50px;
+}
+.skill-data .inner {
+    margin: 6px 0px;
+    padding: 10px 0px;
+}
+.skill-data .inner span{
+font-size: 25px
+}
+.skill-data .inner .spec {
+    font-weight: bold;
+}
+.right-part-side {
+    padding: 42px 40px;
+}
+.right-part-side .box1-items {
+    display: flex;
+    align-items: center;
+}
+.right-part-side .box1-items span{
+    background-color: rgba(4, 11, 34, 0.963);
+    font-size: 40px;
+    padding: 0px 40px;
+    color: white;
+    border-radius: 50px;
+    font-weight: 500;
+    margin-left: 34px;
+}
+.right-part-side .box1-items svg.svg-inline--fa.fa-graduation-cap {
+    font-size: 70px;
+}
+
+.box2  {
+    padding: 0px 0px 0px 60px;
+}
+.box2 .box2-1 {
+    margin: 45px 0px;
+    position: relative;
+    z-index: 99;
+}
+.box2 .box2-1::before
+{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 5px;
+    height: 250px;
+    z-index: -1;
+    top: 17px;
+    left: -45px;
+}
+.box2 .box2-1::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 28px;
+    height: 28px;
+    border-radius: 150%;
+    z-index: -1;
+    top: -11px;
+    left: -56px;
+}
+
+.box2 .box2-1 h5{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 0px;
+}
+.box2 .box2-1 h1 {
+    font-size: 30px;
+}
+.box2 .box2-1 p {
+    font-size: 20px;
+}
+.right-part-side .box1-items svg.svg-inline--fa.fa-bag-shopping {
+    font-size: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.language-content {
+    background-color: rgba(4, 11, 34, 0.963);
+    color: white;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.language-content  svg.svg-inline--fa.fa-language{
+    overflow: visible;
+    box-sizing: content-box;
+    font-size: 40px;
+    padding: 0px 20px 0px 15px;
+}
+.language-content h1 {
+    margin: 0px !important;
+    padding-left: 7px;
+}
+.language-data {
+    padding: 25px 75px 29px 35px;
+}
+
+.language-data .inner .one-smart1{
+    background-color: rgb(138, 17, 6);
+    height: 18px;
+    margin: 12px 0px;
+    border-radius: 50px;
+}
+.language-data .inner .one-smart1 .two-smart1 {
+    background-color: red;
+    height: 18px;
+    width: 246px;
+    border-radius: 50px;
+}
+.language-data .inner .one-smart2{
+    background-color: rgb(138, 17, 6);
+    height: 18px;
+    margin: 12px 0px;
+    border-radius: 50px;
+}
+.language-data .inner .one-smart2 .two-smart2 {
+    background-color: red;
+    height: 18px;
+    width: 275px;
+    border-radius: 50px;
+}
+.language-data .inner .one-smart3{
+    background-color: rgb(138, 17, 6);
+    height: 18px;
+    margin: 12px 0px;
+    border-radius: 50px;
+}
+.language-data .inner .one-smart3 .two-smart3 {
+    background-color: red;
+    height: 18px;
+    width: 250px;
+    border-radius: 50px;
+}
+
+
+
+
+.language-data .inner {
+    margin: 6px 0px;
+    padding: 10px 0px;
+}
+.language-data .inner span{
+font-size: 25px
+}
+.language-data .inner .spec {
+    font-weight: bold;
+}
+
+
+@media  screen and (max-width: 1199px) and (min-width: 992px) {
+
+    .main-profile .left-part-side {
+        padding: 50px 0px 176px 0px;
+        background-color: rgb(235 235 235);
+    }
+
+
+
+
+
+     /* Profile Content part starts form here */
+     .profile-content h1 {
+        margin: 0px !important;
+        padding-left: 7px;
+        font-size: 35px;
+    }
+    .profile-content svg.svg-inline--fa.fa-user {
+        overflow: visible;
+        box-sizing: content-box;
+        font-size: 35px;
+        padding: 0px 20px 0px 15px;
+    }
+    .profile-data P {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    /* Profile Content part ends here */
+
+
+
+
+
+    /* Contact Content part starts form here  */
+    .contact-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        padding: 6px 10px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .contact-content svg.svg-inline--fa.fa-phone {
+        overflow: visible;
+        box-sizing: content-box;
+        font-size: 35px;
+        padding: 0px 10px 0px 15px;
+    }
+   
+    .contact-content h1 {
+        margin: 0px !important;
+        padding-left: 7px;
+        font-size: 35px;
+    }
+    .contact-data .inner span {
+        font-size: 20px;
+    }
+      /* Contact Content part ends here  */
+
+
+
+
+      /* Skill Content starts form here  */
+      .skill-content h1 {
+        margin: 0px !important;
+        padding-left: 7px;
+        font-size: 35px;
+    }
+    .skill-content svg.svg-inline--fa.fa-clock {
+        overflow: visible;
+        box-sizing: content-box;
+        font-size: 35px;
+        padding: 0px 20px 0px 15px;
+    }
+    .skill-data .inner span {
+        font-size: 20px;
+    }
+    .skill-data .inner .one-smart1 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 112%;
+    }
+    .skill-data .inner .one-smart1 .two-smart1 {
+        background-color: red;
+        height: 18px;
+        width: 233px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart2 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 112% !important;
+    }
+    .skill-data .inner .one-smart2 .two-smart2 {
+        background-color: red;
+        height: 18px;
+        width: 212px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart3 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 112%;
+    }
+    .skill-data .inner .one-smart4 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 112%;
+    }
+    .skill-data .inner .one-smart4 .two-smart4 {
+        background-color: red;
+        height: 18px;
+        width: 210px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart5 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 112%;
+    }
+    .skill-data .inner .one-smart5 .two-smart5 {
+        background-color: red;
+        height: 18px;
+        width: 155px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart6 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 112%;
+    }
+    .skill-data .inner .one-smart6 .two-smart6 {
+        background-color: red;
+        height: 18px;
+        width: 211px;
+        border-radius: 50px;
+    }
+      /* Skill Content ends here  */
+
+
+
+      /* Language part starts form here  */
+      .language-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        padding: 6px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+      .language-content h1 {
+        margin: 0px !important;
+        padding-left: 7px;
+        font-size: 35px;
+    }
+    .language-content svg.svg-inline--fa.fa-language {
+        overflow: visible;
+        box-sizing: content-box;
+        font-size: 35px;
+        padding: 0px 4px 0px 15px;
+    }
+    .language-data .inner .one-smart1 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 112%;
+    }
+    .language-data .inner .one-smart1 .two-smart1 {
+        background-color: red;
+        height: 18px;
+        width: 217px;
+        border-radius: 50px;
+    }
+    .language-data .inner .one-smart2 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 112%;
+    }
+    .language-data .inner .one-smart2 .two-smart2 {
+        background-color: red;
+        height: 18px;
+        width: 232px;
+        border-radius: 50px;
+    }
+    .language-data .inner .one-smart3 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 112%;
+    }
+    .language-data .inner .one-smart3 .two-smart3 {
+        background-color: red;
+        height: 18px;
+        width: 225px;
+        border-radius: 50px;
+    }
+     /* Language part ends here  */
+
+
+
+
+
+     /* Education part starts form here  */
+     .right-part-side .box1-items svg.svg-inline--fa.fa-graduation-cap {
+        font-size: 55px;
+    }
+    .right-part-side .box1-items span {
+        background-color: rgba(4, 11, 34, 0.963);
+        font-size: 35px;
+        padding: 0px 30px;
+        color: white;
+        border-radius: 50px;
+        font-weight: 500;
+        margin-left: 20px;
+    }
+    .box2 .box2-1 p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .box2 .box2-1 h1 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .box1-items .box2-1::before {
+        content: "";
+        position: absolute;
+        background-color: black;
+        width: 5px;
+        height: 268px;
+        z-index: -1;
+        top: 32px;
+        left: -45px;
+    }
+    .box2 .box2-1::after {
+        content: "";
+        position: absolute;
+        background-color: black;
+        width: 28px;
+        height: 28px;
+        border-radius: 150%;
+        z-index: -1;
+        top: 4px;
+        left: -56px;
+    }
+     /* Education part ends here  */
+
+
+
+     /* Experience part starts form here  */
+     .right-part-side .box1-items svg.svg-inline--fa.fa-bag-shopping {
+        font-size: 55px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width: 991px) and (min-width: 768px) {
+
+
+    .main-content h1 {
+        font-size: 50px;
+        color: white;
+    }
+    .main-content p {
+        font-size: 18px;
+        color: white;
+    }
+
+    .main-profile .left-part-side {
+        padding: 50px 0px 176px 0px;
+        background-color: rgb(235 235 235);
+    }
+
+     /* Profile Content part starts form here */
+     .profile-data {
+        padding: 25px 21px 29px 17px;
+    }
+     .profile-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+     .profile-content h1 {
+        margin: 0px !important;
+        padding-left: 4px;
+        font-size: 32px;
+    }
+    .profile-content svg.svg-inline--fa.fa-user {
+        overflow: visible;
+        box-sizing: content-box;
+        font-size: 32px;
+        padding: 0px 20px 0px 15px;
+    }
+    .profile-data P {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    /* Profile Content part ends here */
+
+
+
+
+
+    /* Contact Content part starts form here  */
+    .contact-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        padding: 6px 10px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .contact-content svg.svg-inline--fa.fa-phone {
+        overflow: visible;
+        box-sizing: content-box;
+        font-size: 32px;
+        padding: 0px 10px 0px 15px;
+    }
+   
+    .contact-content h1 {
+        margin: 0px !important;
+        padding-left: 7px;
+        font-size: 32px;
+    }
+    .contact-data .inner span {
+        font-size: 16px;
+    }
+      /* Contact Content part ends here  */
+
+
+
+
+      /* Skill Content starts form here  */
+      .skill-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+      .skill-content h1 {
+        margin: 0px !important;
+        padding-left: 6px;
+        font-size: 32px;
+    }
+    .skill-content svg.svg-inline--fa.fa-clock {
+        overflow: visible;
+        box-sizing: content-box;
+        font-size: 32px;
+        padding: 0px 20px 0px 15px;
+    }
+    .skill-data .inner span {
+        font-size: 20px;
+    }
+    .skill-data .inner .one-smart1 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 125%;
+    }
+    .skill-data .inner .one-smart1 .two-smart1 {
+        background-color: red;
+        height: 18px;
+        width: 178px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart2 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 125% !important;
+    }
+    .skill-data .inner .one-smart2 .two-smart2 {
+        background-color: red;
+        height: 18px;
+        width: 171px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart3 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 125%;
+    }
+    .skill-data .inner .one-smart4 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 125%;
+    }
+    .skill-data .inner .one-smart4 .two-smart4 {
+        background-color: red;
+        height: 18px;
+        width: 170px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart5 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 125%;
+    }
+    .skill-data .inner .one-smart5 .two-smart5 {
+        background-color: red;
+        height: 18px;
+        width: 125px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart6 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 125%;
+    }
+    .skill-data .inner .one-smart6 .two-smart6 {
+        background-color: red;
+        height: 18px;
+        width: 140px;
+        border-radius: 50px;
+    }
+      /* Skill Content ends here  */
+
+
+
+      /* Language part starts form here  */
+      .language-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        padding: 6px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+      .language-content h1 {
+        margin: 0px !important;
+        padding-left: 5px;
+        font-size: 32px;
+    }
+    .language-content svg.svg-inline--fa.fa-language {
+        overflow: visible;
+        box-sizing: content-box;
+        font-size: 32px;
+        padding: 0px 4px 0px 15px;
+    }
+    .language-data .inner .one-smart1 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 125%;
+    }
+    .language-data .inner .one-smart1 .two-smart1 {
+        background-color: red;
+        height: 18px;
+        width: 150px;
+        border-radius: 50px;
+    }
+    .language-data .inner .one-smart2 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 125%;
+    }
+    .language-data .inner .one-smart2 .two-smart2 {
+        background-color: red;
+        height: 18px;
+        width: 175px;
+        border-radius: 50px;
+    }
+    .language-data .inner .one-smart3 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 125%;
+    }
+    .language-data .inner .one-smart3 .two-smart3 {
+        background-color: red;
+        height: 18px;
+        width: 166px;
+        border-radius: 50px;
+    }
+     /* Language part ends here  */
+
+
+
+
+     .right-part-side {
+        padding: 42px 16px;
+    }
+     /* Education part starts form here  */
+     .right-part-side .box1-items svg.svg-inline--fa.fa-graduation-cap {
+        font-size: 45px;
+    }
+    .right-part-side .box1-items span {
+        background-color: rgba(4, 11, 34, 0.963);
+        font-size: 32px;
+        padding: 0px 22px;
+        color: white;
+        border-radius: 50px;
+        font-weight: 500;
+        margin-left: 20px;
+    }
+    .box2 {
+        padding: 0px 0px 0px 22px;
+    }
+    .box2 .box2-1 h5 {
+        font-size: 17px;
+        font-weight: bold;
+        padding: 8px 0px;
+    }
+    .box2 .box2-1 p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .box2 .box2-1 h1 {
+        font-size: 21px;
+        font-weight: bold;
+    }
+    .box1-items .box2-1::before {
+        content: "";
+        position: absolute;
+        background-color: black;
+        width: 5px;
+        height: 268px;
+        z-index: -1;
+        top: 32px;
+        left: -45px;
+    }
+    .box2 .box2-1::after {
+        content: "";
+        position: absolute;
+        background-color: black;
+        width: 24PX;
+        height: 24px;
+        border-radius: 150%;
+        z-index: -1;
+        top: 6px;
+    left: -40px;
+    }
+    .box2 .box2-1::before {
+        content: "";
+        position: absolute;
+        background-color: black;
+        width: 4px;
+        height: 250px;
+        z-index: -1;
+        top: 30px;
+    left: -30px;
+    }
+     /* Education part ends here  */
+
+
+
+     /* Experience part starts form here  */
+     .right-part-side .box1-items svg.svg-inline--fa.fa-bag-shopping {
+        font-size: 55px;
+    }
+}
+@media  screen and (max-width: 1500px) and (min-width: 1300px){
+    .main-content p {
+        font-size: 23px;
+        color: white;
+    }
+    .profile-data {
+        padding: 25px 85px 29px 37px;
+    }
+    .profile-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 53%;
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .contact-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 53%;
+        display: flex;  
+        align-items: center;
+        padding: 5px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .skill-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 53%;
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .language-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 53%;
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .language-content svg.svg-inline--fa.fa-language {
+        overflow: visible;
+        box-sizing: content-box;
+        font-size: 40px;
+        padding: 0px 8px 0px 15px;
+    }
+    .skill-data .inner .one-smart1 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        WIDTH: 89%;
+    }
+    .skill-data .inner .one-smart1 .two-smart1 {
+        background-color: red;
+        height: 18px;
+        width: 286px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart2 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        WIDTH: 89%;
+    }
+    .skill-data .inner .one-smart2 .two-smart2 {
+        background-color: red;
+        height: 18px;
+        width: 270px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart3 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        WIDTH: 89%;
+    }
+    .skill-data .inner .one-smart3 .two-smart3 {
+        background-color: red;
+        height: 18px;
+        width: 185px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart4 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        WIDTH: 89%;
+    }
+    .skill-data .inner .one-smart5 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        WIDTH: 89%;
+    }
+    .skill-data .inner .one-smart5 .two-smart5 {
+        background-color: red;
+        height: 18px;
+        width: 157px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart6 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 89%;
+    }
+    .skill-data .inner .one-smart6 .two-smart6 {
+        background-color: red;
+        height: 18px;
+        width: 225px;
+        border-radius: 50px;
+    }
+    .language-data .inner .one-smart1 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 89%;
+    }
+    .language-data .inner .one-smart1 .two-smart1 {
+        background-color: red;
+        height: 18px;
+        width: 261px;
+        border-radius: 50px;
+    }
+    .language-data .inner .one-smart2 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 89%;
+    }
+    .language-data .inner .one-smart2 .two-smart2 {
+        background-color: red;
+        height: 18px;
+        width: 282px;
+        border-radius: 50px;
+    }
+    .language-data .inner .one-smart3 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 89%;
+    }
+    .language-data .inner .one-smart3 .two-smart3 {
+        background-color: red;
+        height: 18px;
+        width: 253px;
+        border-radius: 50px;
+    }
+    .right-part-side .box1-items svg.svg-inline--fa.fa-graduation-cap {
+        font-size: 65px;
+    }
+    .right-part-side .box1-items svg.svg-inline--fa.fa-bag-shopping {
+        font-size: 65px;
+    }
+    .box2 .box2-1::before {
+        content: "";
+        position: absolute;
+        background-color: black;
+        width: 5px;
+        height: 220px;
+        z-index: -1;
+        top: 17px;
+        left: -45px;
+    }
+}
+@media  screen and (max-width: 1299px) and (min-width: 1200px){
+    .main-content p {
+        font-size: 23px;
+        color: white;
+    }
+    .profile-data {
+        padding: 25px 85px 29px 37px;
+    }
+    .profile-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 53%;
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .contact-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 53%;
+        display: flex;  
+        align-items: center;
+        padding: 5px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .skill-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 53%;
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .language-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 53%;
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .language-content svg.svg-inline--fa.fa-language {
+        overflow: visible;
+        box-sizing: content-box;
+        font-size: 40px;
+        padding: 0px 8px 0px 15px;
+    }
+    .skill-data .inner .one-smart1 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        WIDTH: 89%;
+    }
+    .skill-data .inner .one-smart1 .two-smart1 {
+        background-color: red;
+        height: 18px;
+        width: 241px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart2 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        WIDTH: 89%;
+    }
+    .skill-data .inner .one-smart2 .two-smart2 {
+        background-color: red;
+        height: 18px;
+        width: 230px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart3 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        WIDTH: 89%;
+    }
+    .skill-data .inner .one-smart3 .two-smart3 {
+        background-color: red;
+        height: 18px;
+        width: 185px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart4 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        WIDTH: 89%;
+    }
+    .skill-data .inner .one-smart4 .two-smart4 {
+        background-color: red;
+        height: 18px;
+        width: 222px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart5 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        WIDTH: 89%;
+    }
+    .skill-data .inner .one-smart5 .two-smart5 {
+        background-color: red;
+        height: 18px;
+        width: 157px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart6 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 89%;
+    }
+    .skill-data .inner .one-smart6 .two-smart6 {
+        background-color: red;
+        height: 18px;
+        width: 225px;
+        border-radius: 50px;
+    }
+    .language-data .inner .one-smart1 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 89%;
+    }
+    .language-data .inner .one-smart1 .two-smart1 {
+        background-color: red;
+        height: 18px;
+        width: 230px;
+        border-radius: 50px;
+    }
+    .language-data .inner .one-smart2 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 89%;
+    }
+    .language-data .inner .one-smart2 .two-smart2 {
+        background-color: red;
+        height: 18px;
+        width: 249px;
+        border-radius: 50px;
+    }
+    .language-data .inner .one-smart3 {
+        background-color: rgb(138, 17, 6);
+        height: 18px;
+        margin: 12px 0px;
+        border-radius: 50px;
+        width: 89%;
+    }
+    .language-data .inner .one-smart3 .two-smart3 {
+        background-color: red;
+        height: 18px;
+        width: 240px;
+        border-radius: 50px;
+    }
+    .right-part-side .box1-items svg.svg-inline--fa.fa-graduation-cap {
+        font-size: 65px;
+    }
+    .right-part-side .box1-items svg.svg-inline--fa.fa-bag-shopping {
+        font-size: 65px;
+    }
+    .box2 .box2-1::before {
+        content: "";
+        position: absolute;
+        background-color: black;
+        width: 5px;
+        height: 220px;
+        z-index: -1;
+        top: 17px;
+        left: -45px;
+    }
+}
+
+@media  screen and (max-width: 767px) and (min-width: 576px){
+    .main-header-content {
+        text-align: center;
+    }
+    .main-content h1 {
+        font-size: 65px;
+        color: white;
+        text-align: center;
+    }
+    .main-content p {
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    .profile-content h1 {
+        margin: 0px !important;
+        padding-left: 7px;
+        font-size: 40px;
+    }
+    .profile-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 55%;
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .contact-content h1 {
+        margin: 0px !important;
+        padding-left: 7px;
+        font-size: 40px !important;
+    }
+    .contact-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 55%;
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .skill-content h1 {
+        margin: 0px !important;
+        padding-left: 7px;
+        font-size: 40px;
+    }
+    .skill-content {
+        background-color: rgba(4, 11, 34, 0.963);
+        color: white;
+        width: 55%;
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .language-content h1 {
+        margin: 0px !important;
+        padding-left: 7px;
+        font-size: 40px;
+    }
+    .skill-data .inner .one-smart1 .two-smart1 {
+        background-color: red;
+        height: 18px;
+        width: 316px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart3 .two-smart3 {
+        background-color: red;
+        height: 18px;
+        width: 191px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart2 .two-smart2 {
+        background-color: red;
+        height: 18px;
+        width: 286px;
+        border-radius: 50px;
+    }
+    .skill-data .inner .one-smart3 .two-smart3 {
+        background-color: red;
+        height: 18px;
+        width: 216px;
+        border-radius: 50px;
+    }
+}
